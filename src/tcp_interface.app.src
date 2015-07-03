@@ -1,0 +1,12 @@
+%% -*- erlang -*-
+{application, tcp_interface,
+ [{description, "A simple text-based TCP interface to simple_cache"},
+  {vsn, "=VSN="},
+  {modules,
+   [
+    =MODULES=
+   ]},
+  {registered, [ti_sup]},
+  {applications, [kernel, stdlib]},
+  {mod, {ti_app, []}}
+ ]}.
